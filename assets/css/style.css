@@ -1,0 +1,228 @@
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+body {
+	width: 100%;
+	max-width: 960px;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+hr {
+	background-color: white;
+	color: white;
+	border-color: white;
+}
+
+
+#fullHeader {
+	clear:  both;
+	overflow: auto;
+	background-color: #fff;
+	width: 100%;
+	height: 80px;
+}
+
+
+#headerLeft {
+	line-height: 40px;
+	padding: 20px;
+	float: left;
+	background-color: #4aaaa5;
+	color: white;
+	width: 300px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 24pt;
+	font-weight: bold;
+	margin-left: 15px;
+	text-align: center;
+}
+
+
+#headerRight {
+	line-height: 40px;
+	padding: 20px;
+	float: right;
+	background-color: #ffffff;
+	color: #999999;
+	width: 300px;
+	font-size: 14pt;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin-right: 15px;
+	text-align: center;
+}
+
+a:link, a:visited {
+	color: #999999;
+	font-size: 14pt;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+
+a:hover {
+	color: #999999;
+	font-size: 14pt;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-decoration: underline;
+}
+
+
+
+#fullSection {
+	border-top: 2px solid #dddddd;
+	border-bottom: 5px solid #4aaaa5;
+	clear: both;
+	overflow: auto;
+	background-image: url("file:///C:/Users/rrhai/Documents/Coding Bootcamp Code/Homework Assignment 2/Basic-Portfolio/assets/images/crafted-paper-pattern-Grey-Seamless-Pattern-For-Website-Background.jpg");
+	width: 100%;
+	max-width: 960px;
+}
+
+
+#division {
+	float: left;
+	padding: 20px;
+	background-color: white;
+	width: 650px;
+	margin-left: 15px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+aside {
+	padding: 30px;
+	float: right;
+	width: 270px;
+	background-color: #fff;
+	margin-top: 30px;
+	margin-right: 15px;
+	margin-bottom: 30px;
+}
+
+footer {
+	padding: 20px;
+	font-size: 8pt;
+	font-family: Arial;
+	color: white;
+	text-align: center;
+	background-color: #666666;
+}
+
+
+input[type=text] {
+	width: 100%;
+	padding: 8px;
+	margin: 8px 0px 0px 0px;
+}
+
+input[type=submit] {
+    width: 100px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+	border: 2px solid #4aaaa5;
+}
+
+.submitSwitch:hover {
+	background-color: white;
+	color: #4aaaa5;
+	border: 2px solid #4aaaa5;
+}
+
+textarea {
+	width: 100%;
+	margin: 5px 0px;
+}
+
+
+.callout {
+	margin-right: 5px;
+	margin-top: 10px;
+	float: left;
+	width: 100px;
+}
+
+
+.icon {
+	margin-right: 5px;
+	margin-top: 10px;
+	float: left;
+	width: 64px;
+}
+
+
+.mainHeading {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 24pt;
+	font-weight: bold;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #dddddd;
+}
+
+
+.sideHeading {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 18pt;
+	font-weight: bold;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #dddddd;
+}
+
+
+.formHeading {
+	color: #999999;
+	padding-top: 10px;
+}
+
+
+/* Portfolio Section */
+
+.leftPortfolio {
+	float: left;
+	width: 280px;
+	height: 200px;
+	margin-top: 20px;
+	position: relative;
+}
+
+
+.rightPortfolio {
+	float: right;
+	width: 280px;
+	height: 200px;
+	margin-top: 20px;
+	position: relative;
+}
+
+.portfolioLabel {
+	line-height: 40px;
+	/* padding: 20px; */
+	float: left;
+	background-color: #4aaaa5;
+	color: white;
+	width: 280px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 16pt;
+	text-align: center;
+	position: absolute;
+	bottom: 10px;
+}
