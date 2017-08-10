@@ -112,7 +112,7 @@ aside {
 footer {
 	padding: 20px;
 	font-size: 8pt;
-	font-family: Arial;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: white;
 	text-align: center;
 	background-color: #666666;
