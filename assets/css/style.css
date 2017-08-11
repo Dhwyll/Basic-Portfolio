@@ -82,7 +82,7 @@ a:hover {
 	border-bottom: 5px solid #4aaaa5;
 	clear: both;
 	overflow: auto;
-	background-image: url("file:///C:/Users/rrhai/Documents/Coding Bootcamp Code/Homework Assignment 2/Basic-Portfolio/assets/images/crafted-paper-pattern-Grey-Seamless-Pattern-For-Website-Background.jpg");
+	background-image: url("../../assets/images/background.jpg");
 	width: 100%;
 	max-width: 960px;
 }
